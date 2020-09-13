@@ -15,6 +15,8 @@ for file in files:
     		for x in range(len(l)):
         
         		if '>' in l[x]:
+				if n != '':
+					n += '*' + '\n'
                 
             			s =  l[x].split()[0][1:]
                 
@@ -22,7 +24,7 @@ for file in files:
                 
             			l[x] = p
                 
-        		n += l[x]
+        		n += l[x].strip()
             
 	with open(out,'w') as w:
     		w.write(n)
