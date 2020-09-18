@@ -1,8 +1,8 @@
 # converting-fasta-to-pir
-this will convert protein sequence in fasta format to pir using python
+this will convert sequences in fasta format to pir using python
 
 run the script fasta2pir.py in command line:
-$ python fasta2pir.py 
+$python fasta2pir.py 
 hit enter
 
 it will convert all fasta files to pir 
